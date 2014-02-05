@@ -1,14 +1,14 @@
 <? 
 class UserDataColor extends CUserTypeString {
 
-    function GetUserTypeDescription() {
+   /* function GetUserTypeDescription() {
         return array(
             "USER_TYPE_ID" => "color",
             "CLASS_NAME" => "UserDataColor",
             "DESCRIPTION" => "Цвет",
             "BASE_TYPE" => "int",
         );
-    }
+    } */ 
 
     function GetIBlockPropertyDescription() {
         return array(
