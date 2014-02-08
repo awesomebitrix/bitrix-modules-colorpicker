@@ -1,14 +1,19 @@
 <? 
 class UserDataColor extends CUserTypeString {
 
-   /* function GetUserTypeDescription() {
+   /*
+   На будущее для пользовательских полей
+   AddEventHandler("main", "OnUserTypeBuildList", array("UserDataColor", "GetUserTypeDescription"));
+   
+   function GetUserTypeDescription() {
         return array(
             "USER_TYPE_ID" => "color",
-            "CLASS_NAME" => "UserDataColor",
+            "CLASS_NAME" => __CLASS__,
             "DESCRIPTION" => "Цвет",
             "BASE_TYPE" => "int",
         );
-    } */ 
+    } 
+    */ 
 
     function GetIBlockPropertyDescription() {
         return array(
